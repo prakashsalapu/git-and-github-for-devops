@@ -1,6 +1,6 @@
 # 03. Git Init Lifecycle (6 Stages of Git)
 
-### 1.Init repo
+### 1. Init repo
 ```
 git init # Starts tracking your project with Git
 ```
