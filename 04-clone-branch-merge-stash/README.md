@@ -86,28 +86,28 @@ Git stash is used when:
 - You don’t want to commit yet
 - You need to switch branches quickly
 
-### Save changes using stash
+#### Save changes using stash
 
 ```
 git stash
 
 ```
-### View stashed changes
+#### View stashed changes
 ```
 git stash list
 ```
-### Apply latest stash
+#### Apply latest stash
 ```
 git stash pop
 ```
 This restores the changes and removes them from stash.
 
-### Apply stash without deleting
+#### Apply stash without deleting
 ```
 git stash apply
 ```
 
-### Summary
+## Summary
 
 In this module you learned:
 - How to clone a repository
