@@ -82,21 +82,45 @@ If you see a version number, Git is installed successfully.
 
 ## Git configuration (first-time setup)
 
-Before using Git, you must configure your username and email.
-This information is attached to every commit.
+📂 Repository (Repo) – A folder where Git tracks changes
 
-Set username and email : 
+#### a) Configure Username & Email (once per machine)
 ```
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
-Verify configuration :
+##### Check current config:
 ```
 git config --global --list
 ```
+#####  💡Example:
+![Git Configuration](/01-introduction-setup/images/git-config.png)
 
-This setup is done once per machine.
 
+#### b) Check whether Git is initialized or not
+##### Inside your project folder:
+```
+ls -a         # shows hidden files like .git (Git Bash/macOS/Linux)
+# or (Windows CMD)
+# dir /a
+```
+```
+💡If you see a .git/ folder → Git is initialized. If not → run git init.
+
+```
+![Git Initialize](/01-introduction-setup/images/git-init.png)
+
+##### c) git status (and its file types)
+```
+Untracked → New files not tracked yet (add with git add).
+Modified → Tracked files changed but not staged.
+Staged → Changes added to staging area (git add), ready to commit.
+Unmodified → No changes since last commit.
+```
+##### Check status:
+```
+git status
+```
 ## Summary
 
 In this module, you learned:
@@ -107,3 +131,4 @@ In this module, you learned:
   4. How to install Git
   5. How to verify installation
   6. How to configure Git on your system
+
