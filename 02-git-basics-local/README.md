@@ -97,8 +97,6 @@ git status
 
 #This is the basic local Git workflow.
 
-#### 💡Example:
-![Git Status](/02-git-basics-local/images/git-status.png)
 ## Summary
 
 In this module, you learned:
